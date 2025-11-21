@@ -1,0 +1,11 @@
+{
+    "host": {
+        "airasia": "data/airasia_search_response.json",
+        "batik_air": "data/batik_air_search_response.json",
+        "garuda_indonesia": "data/garuda_indonesia_search_response.json",
+        "lion_air": "data/lion_air_search_response.json"
+    },
+    "server": {
+        "host": "localhost:8080"
+    }
+}
