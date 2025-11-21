@@ -5,6 +5,7 @@ const (
 	ReturnDateInvalidFormat            = "return_date, use yyyy-mm-dd format"
 	SortFieldInvalidName               = "sort field"
 	FilterAirlineInvalidName           = "filter airline"
+	PassengersZeroNegative             = "passengers cannot be 0 or negative"
 	FilterPriceRangeMinMaxNegative     = "filter price range cannot be negative"
 	FilterDurationRangeMinMaxNegative  = "filter duration range cannot be negative"
 	FilterPriceRangeMaxLowerThanMin    = "filter price range max is lower than min"

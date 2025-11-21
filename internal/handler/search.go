@@ -54,6 +54,10 @@ func (s Search) IsInvalid(req entity.SearchCriteriaRequest) (bool, string) {
 		}
 	}
 
+	if req.Passengers <= 0 {
+		return true, constant.PassengersZeroNegative
+	}
+
 	if req.Sort.Field != "" {
 		if !data.IsSortFieldValid(req.Sort.Field) {
 			return true, constant.SortFieldInvalidName
