@@ -28,7 +28,7 @@
 | destination | string | Destination airport IATA code | "" | "DPS" |
 | departureDate | string | Departure date (YYYY-MM-DD) | "" | "2025-12-15" |
 | passengers | int | Number of passengers | 1 | any integer ≥ 1 |
-| cabinClass | string | Cabin class | "economy" | "economy", "Y" |
+| cabinClass | string | Cabin class | "" | "economy", "Y" |
 | filter | object | Filtering options | {} | Filter |
 | filter.priceRange | object | Price range | {min:0,max:0} | Range |
 | filter.priceRange.min | int | Min price | 0 | ≥ 0 |
